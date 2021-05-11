@@ -1,5 +1,5 @@
 .airbnbCard{
-    padding: 100px 250px 100px 250px;
+    padding: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -18,12 +18,14 @@
 
 .airbnbCard__top > h1 {
     font-weight: 600;
+    text-align: center;
 }
 
 .airbnbCard__top > div {
     font-size: 20px;
     font-weight: 500;
     color: #4D6186;
+    text-align: center;
 }
 
 /*  bottom part */
@@ -56,4 +58,41 @@
 .airbnbCard__bottom > div > img {
     width: 140px;
     height: 120px;
+}
+
+@media only screen and (max-width: 1140px) {
+    .airbnbCard__bottom > div, .airbnbCard__bottom > img {
+        width: 400px;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    .airbnbCard {
+        padding: 100px 50px
+    }
+    .airbnbCard__bottom{
+        flex-direction: column;
+    }
+
+    .airbnbCard__top > h1 {
+        font-size: 24px;
+    }
+
+    .airbnbCard__top > div {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 445px) {
+    .airbnbCard__bottom > img {
+        width: 100%;
+    }
+
+    .airbnbCard__bottom {
+        width: 300px;
+    }
+
+    .airbnbCard__bottom > div {
+        width: 100%;
+    }
 }

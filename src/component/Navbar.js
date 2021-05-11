@@ -1,16 +1,20 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Navbar.css';
 import Button from '@material-ui/core/Button';
+import MenuIcon from '@material-ui/icons/Menu';
 
 
 const Navbar = () => {
+    
+    const [ showSlide, setShowSlide ] = useState(false);
+
     return (
         <div  className='navbar'>
             <span className='navbar__landkit' >
                 LandKit.
             </span>
 
-            <ul className='navbar__listItems'>
+            <ul className={!showSlide ? 'navbar__listItems' : 'navbar__listItems active'}>
                 <li>
                     Landings
                 </li>
@@ -28,9 +32,11 @@ const Navbar = () => {
                 </li>
             </ul>
 
-            <Button className='navbar__btn' >
+            <Button className={!showSlide ? 'navbar__btn' : 'navbar__btn active'} >
                 Buy now
             </Button>
+
+            <MenuIcon  className='navbar__menuIcon' onClick={() => setShowSlide(!showSlide)} />
         </div>
     )
 }

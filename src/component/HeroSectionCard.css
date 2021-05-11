@@ -22,3 +22,33 @@
     color: #4D6186;
     width: 350px;
 }
+
+@media only screen and (max-width: 1365px) {
+    .heroSectionCard {
+        margin-top: 50px;
+        align-self: center;
+    }   
+}
+
+@media only screen and (max-width: 600px) {
+
+    .heroSectionCard {
+        margin-top: 50px;
+        height: 150px;
+        width: 300px;
+        
+    }
+
+    .heroSectionCard__desc {
+        font-size: 12px;
+        width: 280px;
+    }
+
+    .heroSectionCard__heading {
+        font-size: 16px;
+    }
+
+    .HeroSectionCard__icon {
+        font-size: 30px;
+    }
+}

@@ -30,9 +30,9 @@ const AirbnbCard = () => {
 
                     <span>
                         "LandKit is hands down the most useful front
-                        <br />
+                        
                         end Bootstrap them I've ever used. I can't
-                        <br  />
+                        
                         wait to use it again for my next project."
                     </span>
 

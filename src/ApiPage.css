@@ -24,3 +24,9 @@
     display: flex;
     flex-direction: column;
 }
+
+@media only screen and (max-width: 960px) {
+    .apiPage{
+        padding: 50px 50px;
+    }
+}

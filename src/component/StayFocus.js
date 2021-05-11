@@ -43,7 +43,7 @@ const StayFocus = () => {
                     </div>
                 </div>
 
-                <div>
+                <div className='stayFocus__topRight'>
                     <img src='https://image.freepik.com/free-vector/meditation-man-work-business-working-design-concept_1198-943.jpg' alt='' />
                 </div>
             </div>

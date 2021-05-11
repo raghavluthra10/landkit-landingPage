@@ -11,3 +11,26 @@
     height: fit-content;
     width: 100px;
 }
+
+@media only screen and (max-width: 1070px) {
+    .credSection{
+        padding: 50px 100px;
+    }
+}
+
+@media only screen and (max-width: 830px) {
+    .credSection > img {
+        height: fit-content;
+        width: 50px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .credSection {
+        padding: 50px 10px;
+    }
+    .credSection > img {
+        height: fit-content;
+        width: 30px;
+    }
+}

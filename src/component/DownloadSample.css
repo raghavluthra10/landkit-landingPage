@@ -4,12 +4,14 @@
     padding-left: 250px;
     padding-right: 250px;
     display: flex;
+    column-gap: 50px;
     justify-content: space-between;
 }
 
 /*  left side */
 
 .downloadSample__left {
+    height: fit-content;
     border-radius: 10px;
     overflow: hidden;
     width: 420px;
@@ -80,16 +82,56 @@
     justify-content: space-between;
     align-items: flex-start;
     flex-direction: column;
-
-
 }
 
 .downloadSample__rightCheck > div > span {
-    /* align-self: center; */
     color: #52BA96;
 }
 
 .downloadSample__rightCheck > div > span > span {
     font-size: 20px;
     font-weight: 600;
+}
+
+@media only screen and (max-width: 1462px) {
+    .downloadSample__rightCheck {
+        margin-top: 40px;
+    }
+
+    .downloadSample__rightHead {
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 1275px)  {
+    .downloadSample {
+        padding-left: 50px;
+        padding-right: 50px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .downloadSample__left {
+        width: 350px;
+    }
+}
+
+@media only screen and (max-width: 740px){
+    .downloadSample__rightHead{
+        font-size: 22px;
+    }
+
+    .downloadSample__rightDesc {
+        font-size: 14px;
+    }
+
+    .downloadSample__rightCheck > div > span> span {
+        font-size: 16px;
+    } 
+}
+
+@media only screen and (max-width: 440px) {
+    .downloadSample__left {
+        width: 300px;
+    }
 }
