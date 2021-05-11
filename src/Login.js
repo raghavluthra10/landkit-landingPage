@@ -5,24 +5,31 @@ import './Login.css';
 const Login = () => {
 
     const [ email, setEmail ] = useState('');
-    const [ password, setPassword ] = useState('');
+    const [ address, setAddress ] = useState('');
+    const [ phone, setPhone ] = useState('');
+    const [ name, setName ] = useState('');
 
-    console.log(email, password)
 
     return (
         <div className='login'>
             <h1>
-                Login
+                Contact Us
             </h1>
 
             <form>
+                <label> Name: </label>
+                <input type='text' value={name} onChange={(e) => setName(e.target.value)} />
+
                 <label> Email Id: </label>
                 <input type='text' value={email} onChange={(e) => setEmail(e.target.value)} />
 
-                <label> Password: </label>
-                <input type='password' value={password} onChange={(e) => setPassword(e.target.value)} />
+                <label> Phone no.: </label>
+                <input type='number' value={phone} onChange={(e) => setPhone(e.target.value)} />
 
-                <Button variant='outlined'> Login </Button>
+                <label> Address: </label>
+                <textarea type='text' value={address} onChange={(e) => setAddress(e.target.value)} />
+
+                <Button variant='outlined'> Submit </Button>
             </form>
         </div>
     )

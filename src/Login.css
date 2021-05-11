@@ -15,7 +15,7 @@
     flex-direction: column;
 }
 
-.login>form>input {
+.login>form>input, .login>form>textarea  {
     margin-bottom: 20px;
     height: 30px;
     border-radius: 5px;
