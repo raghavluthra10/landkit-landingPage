@@ -1,0 +1,33 @@
+.navbar {
+    padding-left: 250px;
+    padding-right: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+
+.navbar__btn {
+    background-color: #335EEA !important;
+    color: white !important;
+    padding: 12px 18px !important;
+    font-weight: 700 !important;
+}
+
+.navbar__landkit {
+    font-size: 22px;
+    font-weight: 700;
+    color: #335EEA;
+}
+
+.navbar__listItems {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+}
+
+.navbar__listItems > li {
+    font-weight: 600;
+    color: #4D6186;
+}

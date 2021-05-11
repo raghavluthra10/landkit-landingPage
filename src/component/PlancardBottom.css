@@ -1,0 +1,31 @@
+.plancardBottom {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    width: 450px;
+    margin-bottom: 50px;
+}
+
+.plancardBottom__queIcon{
+    font-size: 35px;
+    color: #52BA96;
+    margin-right: 20px;
+}
+
+.plancardBottom__title {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.plancardBottom__body {
+    font-weight: 500;
+    font-size: 17px;
+    color: #81a4e4;
+}
+
+.plancardBottom__main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 80px;
+}

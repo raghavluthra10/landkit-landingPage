@@ -1,0 +1,13 @@
+.credSection {
+    border-top: 1px lightgray solid;
+    border-bottom: 1px lightgray solid;
+    justify-content: space-between;
+    display: flex;
+    margin-top: 50px;
+    padding: 50px 250px 50px 250px;
+}
+
+.credSection > img {
+    height: fit-content;
+    width: 100px;
+}

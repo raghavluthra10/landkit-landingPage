@@ -1,0 +1,160 @@
+.planCard {
+    padding: 50px 250px 50px 250px;
+    background-color: #1C2A4E;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* plan card top */
+
+.planCard__top  {
+    display: flex;
+}
+
+.planCard__left {
+    width: 500px;
+    box-shadow:
+    0 2.3px 10.2px -50px rgba(0, 0, 0, 0.137),
+    0 7.8px 34.4px -50px rgba(0, 0, 0, 0.203),
+    0 35px 154px -50px rgba(0, 0, 0, 0.34);
+    z-index: 99;
+    height: 550px;
+    padding-top: 30px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    display: flex;
+    color: black;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.planCard__left > span, .planCard__right > span {
+    background-color: rgb(235,237,252);
+    padding: 5px 8px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #335EEA;
+    border-radius: 10px;
+}
+
+.planCard__leftPrice {
+    display: flex;
+    flex-direction: column;
+    font-size: 36px;
+    font-weight: 600;
+    align-items: center;
+}
+
+.planCard__leftPrice > span {
+    font-size: 16px;
+    color: #4D6186;
+}
+
+.planCard__left > button {
+    background-color: #335EEA;
+    width: 100%;
+    height: 70px;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+}
+
+.planCard__leftCheck {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 180px;
+}
+
+.planCard__leftCheck > div {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    color: #4D6186;
+}
+
+.planCard__leftCheckIcon {
+    color: #52BA96;
+}
+
+.planCard__right {
+    width: 500px;
+    height: 500px;
+    padding-top: 30px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    align-self: center;
+    margin-left: -20px;
+}
+
+.planCard__rightDesc{
+    font-size: 22px;
+    font-weight: 500;
+    color: #4D6186;
+    text-align: center;
+    line-height: 35px;
+}
+
+.planCard__right > button {
+    background-color: #D9E2EF;
+    width: 100%;
+    height: 70px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #4D6186;
+}
+
+/* planCard bottom */
+
+.planCard__bottom {
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+}
+
+/* plancard buyNow */
+
+.planCard__buyNow {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 300px;
+    padding-bottom: 50px;
+}
+
+.planCard__buyNow > span {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 6px 12px;
+    border-radius: 15px;
+    color: #3D5078;
+    background-color: #213055;
+}
+
+.planCard__buyNowHead {
+    font-size: 34px;
+}
+
+.planCard__buyNowDesc {
+    color: #4D6186;
+    font-size: 20px;
+    text-align: center;
+}
+
+.planCard__buyNow > button {
+    background-color: #52BA96;
+    color: white;
+    font-weight: 600;
+    padding: 14px 18px;
+}

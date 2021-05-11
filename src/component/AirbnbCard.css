@@ -1,0 +1,59 @@
+.airbnbCard{
+    padding: 100px 250px 100px 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* top part */
+
+.airbnbCard__top {
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.airbnbCard__top > h1 {
+    font-weight: 600;
+}
+
+.airbnbCard__top > div {
+    font-size: 20px;
+    font-weight: 500;
+    color: #4D6186;
+}
+
+/*  bottom part */
+
+.airbnbCard__bottom{
+    display: flex;
+    justify-content: space-between;
+    box-shadow:
+    0 2.3px 10.2px -50px rgba(0, 0, 0, 0.137),
+    0 7.8px 34.4px -50px rgba(0, 0, 0, 0.203),
+    0 35px 154px -50px rgba(0, 0, 0, 0.34);
+
+}
+
+.airbnbCard__bottom > img {
+    width: 500px;
+    height: fit-content;
+}
+
+.airbnbCard__bottom > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.airbnbCard__bottom > div > img {
+    width: 140px;
+    height: 120px;
+}

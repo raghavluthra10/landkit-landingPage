@@ -1,0 +1,87 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 250px;
+}
+
+.footer__first {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__firstLandkit {
+    font-size: 24px;
+    font-weight: 700;
+    color: #335EEA;
+}
+
+.footer__firstDesc {
+    font-size: 18px;
+    font-weight: 600;
+    color: #4D6186;
+}
+
+.footer__icons {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.footer__icons > * , .footer__third >*, .footer__fourth > *, .footer__fifth > *{
+    color: #4D6186;
+}
+
+.footer__second {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__second > span, .footer__third>span ,.footer__fourth> span, .footer__fifth>span{
+    font-size: 14px;
+    font-weight: 600;
+    color: #4D6186;
+    margin-bottom: 20px;
+}
+
+.footer__second > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__second > div > span, .footer__third > div > span, .footer__fourth>div>span, .footer__fifth>div>span {
+    font-size: 18px;
+    font-weight: 600;
+    color: #4D6186;
+    margin-bottom: 10px;
+}
+
+.footer__third{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__third > div {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.footer__fourth{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__fourth > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__fifth {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__fifth > div {
+    display: flex;
+    flex-direction: column;
+}

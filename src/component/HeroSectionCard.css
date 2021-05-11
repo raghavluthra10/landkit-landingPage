@@ -1,0 +1,24 @@
+.heroSectionCard {
+    margin-top: 180px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 250px;
+}
+
+.HeroSectionCard__icon{
+    font-size: 50px !important;
+    color: #335EEA;
+}
+
+.heroSectionCard__heading{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.heroSectionCard__desc {
+    font-size: 18px;
+    font-weight: 500;
+    color: #4D6186;
+    width: 350px;
+}
